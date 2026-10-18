@@ -282,7 +282,9 @@ dialog { color: var(--color-text); }
 .cnnv-press-gallery-grid { display: grid; grid-auto-columns: calc((100% - 2.4rem) / 3); grid-auto-flow: column; gap: .8rem; overflow-x: auto; overscroll-behavior-inline: contain; scroll-behavior: smooth; scroll-snap-type: x mandatory; scrollbar-width: none; }
 .cnnv-press-gallery-grid::-webkit-scrollbar { display: none; }
 .cnnv-gallery-slide { min-width: 0; padding: 0; overflow: hidden; border: 0; background: #111; cursor: zoom-in; scroll-snap-align: start; }
-.cnnv-gallery-slide img { width: 100%; aspect-ratio: 4 / 3; background: #111; object-fit: contain; transition: transform .3s ease; }
+.cnnv-gallery-slide img { width: 100%;
+  height: auto;
+  transition: transform .3s ease; }
 .cnnv-gallery-slide:hover img { transform: scale(1.025); }
 .cnnv-gallery-controls { position: absolute; inset: 0; display: flex; align-items: center; justify-content: space-between; pointer-events: none; }
 .cnnv-gallery-arrow { display: grid; place-items: center; width: 42px; height: 56px; border: 0; background: rgba(0,0,0,.48); color: #fff; font-size: 2.6rem; line-height: 1; cursor: pointer; pointer-events: auto; }
