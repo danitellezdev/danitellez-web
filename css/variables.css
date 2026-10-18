@@ -1,0 +1,15 @@
+:root {
+  color-scheme: light;
+  --color-bg: #faf9f7;
+  --color-bg-soft: #f5f3ef;
+  --color-panel: #ffffff;
+  --color-text: #2b2b2b;
+  --color-muted: #666666;
+  --color-gold: #8b6f47;
+  --color-gold-light: #8b6f47;
+  --color-line: #e4e0d9;
+  --font-display: "Aptos", "Segoe UI", sans-serif;
+  --font-body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --page-gutter: clamp(1.25rem, 7.2vw, 7.5rem);
+  --content-width: 1440px;
+}
